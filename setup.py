@@ -14,7 +14,7 @@ setup  (name        = 'sslstrip',
         packages  = ["sslstrip"],
         package_dir = {'sslstrip' : 'sslstrip/'},
         scripts = ['sslstrip/sslstrip'],
-        data_files = [('share/sslstrip', ['README', 'COPYING', 'lock.ico'])],
+        data_files = [('share/sslstrip', ['README.md', 'COPYING', 'lock.ico'])],
        )
 
 print "Cleaning up..."
